@@ -11,10 +11,23 @@ const Navbar = () => {
        <hr/>
         </NavLink>
         <NavLink>
-       <li>HOME</li>
+       <li>ALL DOCTORS</li>
+       <hr/>
+        </NavLink>
+        <NavLink>
+       <li>ABOUT</li>
+       <hr/>
+        </NavLink>
+        <NavLink>
+       <li>CONTACT</li>
        <hr/>
         </NavLink>
        </ul>
+       <div>
+        <button>
+          Create Account
+        </button>
+       </div>
     </div>
   )
 }
